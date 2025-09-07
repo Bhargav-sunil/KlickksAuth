@@ -18,7 +18,7 @@ function App() {
   const checkAuthStatus = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch("http://localhost:5000/api/auth/status", {
+      const response = await fetch(`https://klickksauth.onrender.com/api/auth/status`, {
         credentials: "include",
       });
 
