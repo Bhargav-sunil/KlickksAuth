@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 // CORS
 const corsOptions = {
-  origin: "https://klickks-auth-kappa.vercel.app/",
+  origin: "https://klickks-auth-kappa.vercel.app",
   credentials: true,
   optionsSuccessStatus: 200,
 };
